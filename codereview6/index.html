@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- this is all links i needed-->
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css-bootstrap\bootstrap.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.slim.maxcdnin.js"
+  	integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  	crossorigin="anonymous"></script>   
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+      <link rel="stylesheet" href="css-bootstrap/style.css">
+	<title>Abdulhamid Kwieder</title>
+<body>
+	<!-- it is the navbar of my page-->
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://www.codefactory.academy/abdulhamid-kwieder/">Abdulhamid</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#menu1">Books <span class="sr-only">(current)</span></a></li>
+        <li><a href="#menu2">Music</a></li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Log in</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">social media<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.facebook.com/abdulhamed.kwieder">Facebook</a></li>
+            <li><a href="https://www.youtube.com/channel/UCB7qEyuM3dx17dvBoGl02Ig?view_as=subscriber">You Tube</a></li>
+            <li><a href="https://www.instagram.com/abdulhamedkw/">Instagram</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="https://twitter.com/abdulhamedkwied">Twitter</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ <!-- here you can find the photos slide and some nav functions :) -->
+		<div>
+			<h1 class="text-center"><code>Welcome To My Library</code></h1>
+		</div>
+		<ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+        <li><a data-toggle="tab" href="#menu1">Books</a></li>
+        <li><a data-toggle="tab" href="#menu2">Music</a></li>
+        <li><a data-toggle="tab" href="#menu3">Theater</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+           <div class="row">
+      <div class="col-md-12">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!--  -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item">
+              <img class="first-slide" src="imgs/theater.jpg" style="height: 400px;width: 100%;" alt="First slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>A Theater</h1>
+                  <p>Theater ist die Bezeichnung für eine szenische Darstellung eines inneren und äußeren Geschehens als künstlerische Kommunikation zwischen Akteuren (Darstellern) und dem Publikum. </p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="item active">
+              <img class="second-slide" src="imgs/covermusic.jpg"  style="height: 400px;width: 100%;" alt="Second slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Music</h1>
+                  <p>Music is an art form and cultural activity whose medium is sound organized in time.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img class="third-slide" src="imgs/coverbooks.jpg" style="height: 400px;width: 100%;" alt="Third slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>A Book </h1>
+                  <p>A book is a series of pages assembled for easy portability and reading, as well as the composition contained in it. </p>
+                  <p><a class="btn btn-lg btn-primary" href="#menu1" role="button">read more...</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </div>
+        </div>
+    </div>
+     <!-- some infos about book, music and theater-->
+        <div id="menu1" class="tab-pane fade">
+          <h3>A Book</h3>
+          <p>A book is a series of pages assembled for easy portability and reading, as well as the composition contained in it. The most common modern form of book is a codex volume consisting of rectangular paper pages bound on one side, with a heavier cover and spine, so that it can fan open for reading. Books have taken other forms, such as scrolls, leaves on a string, or strips tied together; and the pages have been of parchment, vellum, papyrus, bamboo slips, palm leaves, silk, wood, and other materials.</p>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <h3>Music</h3>
+          <p>Music is an art form and cultural activity whose medium is sound organized in time. The common elements of music are pitch (which governs melody and harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics (loudness and softness), and the sonic qualities of timbre and texture (which are sometimes termed the "color" of a musical sound). Different styles or types of music may emphasize, de-emphasize or omit some of these elements. Music is performed with a vast range of instruments and vocal techniques ranging from singing to rapping; there are solely instrumental pieces, solely vocal pieces (such as songs without instrumental accompaniment) and pieces that combine singing and instruments. The word derives from Greek μουσική (mousike; "art of the Muses").[1] See glossary of musical terminology.</p>
+        </div>
+        <div id="menu3" class="tab-pane fade">
+          <h3>A Theater</h3>
+          <p>Theater ist die Bezeichnung für eine szenische Darstellung eines inneren und äußeren Geschehens als künstlerische Kommunikation zwischen Akteuren (Darstellern) und dem Publikum. Mit dem Wort Theater kann das Gebäude gemeint sein, in dem Theater gespielt wird (siehe Theaterarchitektur), oder der Prozess des Theater-Spielens oder auch allgemein eine Gruppe von Menschen, die Theater machen, also eine Theatergruppe..</p>
+        </div>
+      </div>
+<script>
+	 //i made my library using objects in JS
+	var Kio=[{
+					Title : "Dylan",
+					Author: "Bob Dylan",
+					Genre: "rock",
+					Minutes: 34,
+					Publisher :"Hamid",
+					Image :"imgs/Bob_Dylan_-_Dylan_(1973_album).jpg",
+					Rating : "&starf;&starf;&starf;&star;&star;"
+				},{
+					Title : "City lights",
+					Author: "Charlie Chaplin",
+					Genre: "romantic comedy",
+					Minutes: 87,
+					Publisher :"United Artists",
+					Image :"imgs/citylights_image.jpg",
+					Rating : "&starf;&starf;&starf;&starf;&starf;"
+				},{
+					Title : "Lawrence of Arabia",
+					Author: "T.E.Lawrence",
+					Genre: " historical drama",
+					Minutes: 222,
+					Publisher :"Columbia Pictures",
+					Image :"imgs/Lawrence_of_arabia.jpg",
+					Rating : "&starf;&starf;&starf;&starf;&star;"
+				},{
+					Title : "Diamond Life",
+					Author: "Sade",
+					Genre: "smooth soul",
+					Minutes: 34,
+					Publisher :"Epic",
+					Image :"imgs/sade-diamond-life.jpg",
+					Rating : "&starf;&starf;&starf;&starf;&starf;"
+				},{
+					Title : "Woodwalkers",
+					Author: "Katja Brandis",
+					Genre: "belletristik",
+					Minutes: 34,
+					Publisher :"Bild",
+					Image :"imgs/woodwalkers.jpg",
+					Rating : "&starf;&starf;&starf;&starf;&starf;",
+					Weight : 1 
+				},{
+					Title : "Foundation",
+					Author: "Isaac Asimov",
+					Genre: "fantasy science fiction",
+					Minutes: 34,
+					Publisher :"Heyne",
+					Image :"imgs/fondation-asimov.jpg",
+					Rating : "&starf;&starf;&starf;&star;&star;"
+				},{
+					Title : "The Sandman",
+					Author: "Neil Gaiman",
+					Genre: "fantasy",
+					Minutes: 34,
+					Publisher :"Vertigo",
+					Image :"imgs/Sandman.jpg",
+					Rating : "&starf;&starf;&starf;&star;&star;"
+				},{
+					Title : "Modesty Blaise",
+					Author: "Peter O'Donnell",
+					Genre: "mystery",
+					Publisher :"Titan Books",
+					Image :"imgs/modesty1.jpg",
+					Rating : "&starf;&starf;&starf;&starf;&starf;"
+				},{
+					Title: "Amal Hayati",
+					Author: "Um Kalthom",
+					Genre: "glee",
+					Minutes: 04,
+					Publisher: "Hamid",
+		   			Image: "imgs/music/umkalthom.jpg",	
+					Rating : "&starf;&starf;&starf;&star;&star;"
+					},
+					{
+					Title: "Deliverance",
+					Author: "Yanni",
+					Genre: "Jazz",
+					Minutes: 55,
+					Publisher: "Anna",
+		   			Image: "imgs/music/yanni.jpg",	
+					Rating : "&starf;&starf;&starf;&star;&star;"
+					},
+					{
+					Title: "Etab",
+					Author: "Fayroz",
+					Genre: "Eastern music",
+					Minutes: 32,
+					Publisher: "Fadi",
+		   			Image: "imgs/music/fayroz.jpg",	
+					Rating : "&starf;&starf;&starf;&star;&star;" 
+					},
+					{
+					Title: "Maxina",
+					Author: "beethoven",
+					Genre: "classic",
+					Minutes: 41,
+					Publisher: "Mohammed",
+		   			Image: "imgs/music/beethoven.jpg",	
+					Rating : "&starf;&starf;&starf;&star;&star;" 
+					}
+				];
+				document.write("<div style='margin-top:30px;'>")
+				for (var i = 0 ; i < Kio.length ; i++){
+					document.write("<div class='col-lg-4 col-md-4'><img src='"+Kio[i].Image+"' width='200' class='items img-rounded' height='200'><p><h3>"+Kio[i].Title+"</h3><p>("+Kio[i].Genre+")</p><p>von <a href='#'>"+Kio[i].Publisher+"</a></p><p>"+Kio[i].Author+"</p><p>"+Kio[i].Rating+"</p></div>")
+				}
+				document.write("</div>");
+</script>
+<footer>
+<div class="social-btns"><a class="btn facebook" href="https://www.facebook.com/abdulhamed.kwieder"><i class="fa fa-facebook"></i></a><a class="btn twitter" href="https://twitter.com/abdulhamedkwied"><i class="fa fa-twitter"></i></a><a class="btn google" href="https://plus.google.com/u/0/111120733183590864637"><i class="fa fa-google"></i></a>
+	<h6 style="text-align: center;"></br> @ Abdulhamid Kwieder - CodeFactory - 2018  </h6>
+</div>
+</footer>
+</div>
+</div>
+</body>
+</html>
